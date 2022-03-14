@@ -1,0 +1,16 @@
+.app {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  color: #555;
+}
+
+.app label {
+  font-weight: bold;
+  margin: 20px 0 10px;
+}
+
+.app input {
+  text-align: center;
+}
