@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+html,
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
+
+/** Make a beautiful input box with blue border */
+input {
+  font-family: inherit;
+  font-size: 16px;
+  background: none;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  color: white;
+  height: 36px;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #1AA7FF;
+  outline: none;
+}
+
+a {
+  color: #1AA7FF;
+  text-decoration: none;
+  transition: color 0.1s;
+}
+
+a:hover {
+  color: #0090dd;
+}
+
+a:focus {
+  color: #007CBF;
+  outline: none;
+}
