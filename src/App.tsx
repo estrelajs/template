@@ -1,11 +1,10 @@
-import { getState } from 'estrela';
-import classes from './App.module.css';
+import { getState, styled } from 'estrela';
 
-export function App() {
+const App = () => {
   let name = 'Forasteiro';
 
   return (
-    <div class={classes.app}>
+    <div class="app">
       <h1>Welcome {name}!</h1>
 
       <p>
@@ -20,4 +19,23 @@ export function App() {
       <input id="name" bind={getState(name)} autocomplete="off" />
     </div>
   );
-}
+};
+
+export default styled(App)`
+  .app {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    color: #555;
+
+    label {
+      font-weight: bold;
+      margin: 20px 0 10px;
+    }
+
+    input {
+      text-align: center;
+    }
+  }
+`;
