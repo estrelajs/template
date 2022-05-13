@@ -4,16 +4,15 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@babel/core": "^7.17.10",
-    "typescript": "^4.6.4",
-    "vite": "^2.9.9",
-    "vite-plugin-estrela": "^1.4.1"
+    "typescript": "^4.7.4",
+    "vite": "^2.9.14",
+    "vite-plugin-estrela": "0.11.0"
   },
   "dependencies": {
-    "estrela": "^0.8.4"
+    "estrela": "^0.11.0"
   }
 }
