@@ -1,4 +1,4 @@
-import { getState, styled } from 'estrela';
+import { styled } from 'estrela';
 
 const App = () => {
   let name = 'Forasteiro';
@@ -16,7 +16,7 @@ const App = () => {
       </p>
 
       <label for="name">Enter your name:</label>
-      <input id="name" bind={getState(name)} autocomplete="off" />
+      <input id="name" bind={name$} autocomplete="off" />
     </div>
   );
 };
