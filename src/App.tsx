@@ -9,7 +9,7 @@ const App = () => {
 
       <p>
         This is your startup project. Please, visit Estrela{' '}
-        <a href="https://estrelajs.gitbook.io/estrela/" target="_blank">
+        <a href="https://estrelajs.github.io/" target="_blank">
           docs
         </a>{' '}
         to learn more about it.
