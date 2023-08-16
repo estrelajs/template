@@ -10,9 +10,9 @@
   "devDependencies": {
     "typescript": "^4.7.4",
     "vite": "^2.9.14",
-    "vite-plugin-estrela": "0.11.0"
+    "vite-plugin-estrela": "0.11.3"
   },
   "dependencies": {
-    "estrela": "^0.11.0"
+    "estrela": "^0.11.3"
   }
 }
